@@ -37,7 +37,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import dagger.hilt.android.AndroidEntryPoint
-import thecodemonks.org.nottzapp.BuildConfig
+//import thecodemonks.org.nottzapp.BuildConfig
 import thecodemonks.org.nottzapp.R
 import thecodemonks.org.nottzapp.databinding.FragmentAboutBinding
 
@@ -61,11 +61,11 @@ class AboutFragment : Fragment(R.layout.fragment_about) {
     }
 
     private fun initViews() = with(binding) {
-        appVersion.text = getString(
-            R.string.text_app_version,
-            BuildConfig.VERSION_NAME,
-            BuildConfig.VERSION_CODE
-        )
+//        appVersion.text = getString(
+//            R.string.text_app_version,
+//            BuildConfig.VERSION_NAME,
+//            BuildConfig.VERSION_CODE
+//        )
 
         license.setOnClickListener {
             launchBrowser(REPO_LICENSE)
