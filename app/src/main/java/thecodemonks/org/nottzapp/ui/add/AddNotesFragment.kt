@@ -69,9 +69,6 @@ class AddNotesFragment : Fragment(R.layout.add_notes_fragment) {
 
                 // check whether both title & desc is not empty
                 when {
-                    title.isEmpty() -> {
-                        requireActivity().toast(getString(R.string.empty_title_msg))
-                    }
                     note.isEmpty() -> {
                         requireActivity().toast(getString(R.string.empty_desc_msg))
                     }

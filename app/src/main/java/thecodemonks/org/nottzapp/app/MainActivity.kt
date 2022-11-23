@@ -44,7 +44,8 @@ import thecodemonks.org.nottzapp.utils.factory.viewModelFactory
 import javax.inject.Inject
 
 @AndroidEntryPoint
-class MainActivity : AppCompatActivity() {
+class
+MainActivity : AppCompatActivity() {
     private lateinit var navHostFragment: NavHostFragment
     private lateinit var appBarConfiguration: AppBarConfiguration
 
